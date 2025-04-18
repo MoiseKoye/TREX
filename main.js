@@ -89,7 +89,7 @@
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_6fyq9b3', 'template_o0jv0kb', this)
+    emailjs.sendForm('service_fsi2udw', 'template_o0jv0kb', this)
         .then(function() {
             alert('Message envoyé avec succès !');
             document.getElementById('contactForm').reset();
